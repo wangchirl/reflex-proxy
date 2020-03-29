@@ -358,7 +358,7 @@ read.invoke(p);
 ### 动态代理技术
 
 > 1. Java Proxy （接口）
-> 2. CGLIB      s（父类继承）
+> 2. CGLIB      （父类继承）
 > 3. AspectJ
 > 4. javaagent
 
@@ -383,7 +383,8 @@ read.invoke(p);
 ##### 1.1 Proxy
 
 > ```
-> provides static methods for creating dynamic proxy classes and instances, and it is also the superclass of all dynamic proxy classes created by those methods
+> provides static methods for creating dynamic proxy classes and instances, 
+and it is also the superclass of all dynamic proxy classes created by those methods
 > ```
 
 ##### 1.2 InvocationHandler
@@ -407,4 +408,3 @@ read.invoke(p);
 
 
 ### CGLIB 动态代理技术
-

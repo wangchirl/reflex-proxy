@@ -23,6 +23,8 @@ public class TestProxy {
         Human instance1 = (Human) factory.getProxyInstance();
         instance1.dance();
 
+        System.out.println("==================");
+
         byte[] bytes = ProxyGenerator.generateProxyClass(
                 "Human$Proxy", new Class[]{Human.class}
         );

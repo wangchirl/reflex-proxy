@@ -43,7 +43,9 @@ public class ProxyFactory implements InvocationHandler {
      * @return
      */
     public Object getProxyInstance() {
-        return Proxy.newProxyInstance(object.getClass().getClassLoader(), object.getClass().getInterfaces(), this);
+        return Proxy.newProxyInstance(object.getClass().getClassLoader(),
+                object.getClass().getInterfaces(),
+                this);
     }
 
 
